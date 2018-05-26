@@ -1,0 +1,10 @@
+var my_var := "string"
+my_var = "other"
+
+println(my_var)
+
+var my_other_var: int = 0
+# var my_other_var: str = 7 # Error - this variable is already defined in the scope
+
+val my_val := true
+# val my_val = false # Error - values are immutable
