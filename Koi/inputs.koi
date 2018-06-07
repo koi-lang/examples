@@ -1,0 +1,10 @@
+input("Input: ")
+input("Limited Input: ", limit=5)
+
+var input_ := input("Inferred Input: ")
+
+var integer: int = input("Integer Input: ")
+
+print(input("Printed Input: "))
+
+print("Integer" + integer)
