@@ -1,0 +1,5 @@
+fun main(args: str[]) -> int {
+    call println("Hello, World!")
+
+    return 0
+}
