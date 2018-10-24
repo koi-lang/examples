@@ -1,0 +1,15 @@
+fun main() -> int {
+    var hello: str = "Hello"
+    var comma: str = ","
+    var space: str = " "
+    var world: str = "World"
+    var exclamation: str = "!"
+
+    var string: str[] = [hello, comma, space, world, exclamation]
+
+    for s: str in string {
+        call print(s)
+    }
+
+    return 0
+}
