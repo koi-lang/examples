@@ -1,0 +1,7 @@
+fun main(argc: int, argv: str[]) -> int {
+    for a in argv {
+        call println(a)
+    }
+
+    return 0
+}
