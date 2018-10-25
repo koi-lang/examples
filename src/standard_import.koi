@@ -1,0 +1,7 @@
+std import logging::log
+
+fun main() -> int {
+    call log("Hello, World!", "info")
+
+    return 0
+}
