@@ -1,0 +1,13 @@
+fun main() -> int {
+    if 5 == 7 {
+        call println("5 is equal to 7.")
+    }
+    elf 5 == 5 {
+        call println("5 is equal to 5.")
+    }
+    else {
+        call println("Nothing is equal to anything.")
+    }
+
+    return 0
+}
