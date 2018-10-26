@@ -1,0 +1,28 @@
+core import console::println
+core import console::print
+
+class MyClass {
+    init {
+        var first: str = "Hello"
+        var last: str = "Me"
+    }
+
+    constructor() {
+        call print("Hello, ")
+        call print(this.last)
+        call println("!")
+    }
+
+    meth pro hello(name: str) {
+        call print("Hello, ")
+        call print(name)
+        call println("!")
+    }
+}
+
+fun main() -> int {
+    var mc_instance: MyClass = new MyClass()
+    call mc_instance.hello("Koi")
+
+    return 0
+}
