@@ -1,0 +1,9 @@
+core import console::input
+core import console::println
+
+fun main() -> int {
+    var my_input: str = call input("> ", 10)
+    call println(my_input)
+
+    return 0
+}
