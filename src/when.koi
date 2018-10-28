@@ -1,0 +1,25 @@
+core import console::println
+
+fun main() -> int {
+    var num: int = 10
+
+    when num {
+        is < 3 {
+            call println("Num is less than 3.")
+        }
+
+        is > 83 {
+            call println("Num is more than 83.")
+        }
+
+        is 10 {
+            call println("Num is 10.")
+        }
+
+        else {
+            call println("Num is something else.")
+        }
+    }
+
+    return 0
+}
