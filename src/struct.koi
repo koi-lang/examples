@@ -1,0 +1,20 @@
+core import console::println
+
+struct Book {
+    id: int
+    name: str
+    author: str
+    subject: str
+}
+
+fun main() -> int {
+    var my_book: Book
+    my_book.id = 1
+    my_book.name = "My Book"
+    my_book.author = "Me"
+    my_book.subject = "Book Stuff"
+
+    call println(my_book.name)
+
+    return 0
+}
