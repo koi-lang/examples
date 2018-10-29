@@ -1,0 +1,21 @@
+core import console::println
+core import convert::int_to_str
+
+enum Day {
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY,
+    SUNDAY
+}
+
+fun main() -> int {
+    call println(call int_to_str(MONDAY))
+
+    var day: Day = TUESDAY
+    call println(call int_to_str(day))
+
+    return 0
+}
