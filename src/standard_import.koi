@@ -1,7 +1,15 @@
-std import logging::log
+std import logging::info
+std import logging::debug
+std import logging::config
+std import logging::warn
+std import logging::fatal
 
 fun main() -> int {
-    call log("Hello, World!", "info")
+    call info("Hello, World!")
+    call debug("Hello, World!")
+    call config("Hello, World!")
+    call warn("Hello, World!")
+    call fatal("Hello, World!")
 
     return 0
 }
