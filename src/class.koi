@@ -1,5 +1,5 @@
-core import console::println
-core import console::print
+import core::console::println
+import core::console::print
 
 class MyClass {
     init {

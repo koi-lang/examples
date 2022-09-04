@@ -1,5 +1,5 @@
-core import console::input
-core import console::println
+import core::console::input
+import core::console::println
 
 fun main() -> int {
     var my_input: str = call input("> ", 10)

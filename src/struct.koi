@@ -1,4 +1,4 @@
-core import console::println
+import core::console::println
 
 struct Book {
     id: int

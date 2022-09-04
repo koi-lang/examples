@@ -1,5 +1,5 @@
-core import console::println
-core import convert::int_to_str
+import core::console::println
+import core::convert::int_to_str
 
 enum Day {
     MONDAY,

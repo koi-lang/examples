@@ -1,8 +1,8 @@
-std import logging::info
-std import logging::debug
-std import logging::config
-std import logging::warn
-std import logging::fatal
+import std::logging::info
+import std::logging::debug
+import std::logging::config
+import std::logging::warn
+import std::logging::fatal
 
 fun main() -> int {
     call info("Hello, World!")

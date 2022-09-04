@@ -1,4 +1,4 @@
-core import console::println
+import core::console::println
 
 fun main() -> int {
     call println("Hello, World!")

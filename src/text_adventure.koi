@@ -1,16 +1,16 @@
-core import console::print
-core import console::println
-core import console::input
-core import convert::str_to_int
-core import convert::int_to_str
-core import system::die
+import core::console::print
+import core::console::println
+import core::console::input
+import core::convert::str_to_int
+import core::convert::int_to_str
+import core::system::die
 
 pro menu_ask() {
     var option: int = call str_to_int(call input("> ", 1))
 
     when option {
-        is 1 -> call println("Starting...")
-        is 2 -> call println("Opening options...")
+        is 1 => call println("Starting...")
+        is 2 => call println("Opening options...")
         is 3 {
             call println("Quitting...")
             call die()
