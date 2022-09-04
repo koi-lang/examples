@@ -1,5 +1,7 @@
+import core::console::println
+
 fun main(argc: int, argv: str[]) -> int {
-    for a in argv {
+    for a: str in argv {
         call println(a)
     }
 
