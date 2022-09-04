@@ -3,23 +3,18 @@ core import console::println
 core import console::input
 core import convert::str_to_int
 core import convert::int_to_str
+core import system::die
 
 pro menu_ask() {
     var option: int = call str_to_int(call input("> ", 1))
 
     when option {
-        is 1 {
-            call println("Starting...")
-        }
-
-        is 2 {
-            call println("Opening options...")
-        }
-
+        is 1 -> call println("Starting...")
+        is 2 -> call println("Opening options...")
         is 3 {
             call println("Quitting...")
+            call die()
         }
-
         else {
             call print("'")
             call print(call int_to_str(option))
