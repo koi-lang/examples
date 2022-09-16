@@ -1,0 +1,11 @@
+import core::console::println
+
+fun main(argc: int, argv: str[]) -> int {
+    var list: str[] = ["0", "1", "2", "3", "4"]
+
+    for i: str in list {
+        call println(i)
+    }
+
+    return 0
+}

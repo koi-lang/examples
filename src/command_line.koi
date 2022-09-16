@@ -1,9 +1,0 @@
-import core::console::println
-
-fun main(argc: int, argv: str[]) -> int {
-    for a: str in argv {
-        call println(a)
-    }
-
-    return 0
-}

@@ -1,7 +1,0 @@
-import core::console::println
-
-fun main() -> int {
-    call println("Hello, World!")
-
-    return 0
-}
